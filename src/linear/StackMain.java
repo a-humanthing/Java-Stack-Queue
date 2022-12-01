@@ -6,7 +6,7 @@ public class StackMain {
 		stack.push(4);
 		stack.push(16);
 		stack.push(3);
-		stack.push(31);
+ 		stack.push(31);
 		stack.push(12);
 		stack.push(11);
 		stack.push(16);
