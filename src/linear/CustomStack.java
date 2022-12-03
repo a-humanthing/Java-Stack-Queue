@@ -42,4 +42,17 @@ public class CustomStack {
 	private boolean isEmpty() {
 		return ptr==-1;
 	}
+	public void display() throws Exception{
+		if(isEmpty()){
+			throw new Exception("Stack is Empty");
+		}
+		int temp=ptr;
+		while(temp>=0){
+			System.out.println(data[temp]);
+			System.out.println("|");
+			System.out.println('^');
+			temp--;
+		}
+	}
+	
 }
