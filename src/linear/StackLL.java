@@ -10,6 +10,7 @@ public class StackLL {
         stack.push(7);
         stack.push(9);
         stack.display();
+
     }
 
     public class Node{

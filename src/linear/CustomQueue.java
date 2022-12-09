@@ -3,7 +3,7 @@ package linear;
 public class CustomQueue {
 	public int[] data;
 	private static final int DEFAULT_SIZE=10;
-	int end=0;
+	int end=1;
 	public CustomQueue() {
 		this(DEFAULT_SIZE);
 	}
